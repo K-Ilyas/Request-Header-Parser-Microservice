@@ -1,0 +1,21 @@
+{
+    "name": "request-header-parser-microservice",
+    "version": "1.0.0",
+    "description": "Request header parser microservice",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "keywords": [
+        "header",
+        "parser"
+    ],
+    "author": "ilyas kritet",
+    "license": "MIT",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1"
+    }
+}
